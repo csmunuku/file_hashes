@@ -21,3 +21,6 @@ $ python3 file_hashes.py /Users/Munukutla/test
 Where /Users/Munukutla/test is the Directory which has several files with same content,
 though having a different filename.
 ```
+
+#### NOTES:
+I have used sha256 for finding the hashing.  We can probably look at other hashing algorithms which might be faster in calculating the hashes for improved speed.
