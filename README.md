@@ -14,12 +14,19 @@ The output would look something like below:
 ```
 
 
-Here is how to execute the program:
+#### Here is how to execute the program ==> using Python3:
 ```
 $ python3 file_hashes.py /Users/Munukutla/test
 
 Where /Users/Munukutla/test is the Directory which has several files with same content,
 though having a different filename.
+```
+
+---
+
+#### Here is how to execute the program ==> bash script:
+```
+$ ./same_files.sh /Users/Munukutla/test
 ```
 
 #### NOTES:
