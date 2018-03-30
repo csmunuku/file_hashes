@@ -30,4 +30,5 @@ $ ./same_files.sh /Users/Munukutla/test
 ```
 
 #### NOTES:
-I have used sha256 for finding the hashing.  We can probably look at other hashing algorithms which might be faster in calculating the hashes for improved speed.
+*  for Python3 script, I have used sha256 for finding the hashing.  We can probably look at other hashing algorithms which might be faster in calculating the hashes for improved speed.
+*  For the bash script, just used cksum, we can probably use one of Secure Hash Algorithms (SHA) including SHA1, SHA256 and SHA512
