@@ -26,7 +26,7 @@ though having a different filename.
 
 #### Here is how to execute the program ==> bash script:
 ```
-$ ./same_files.sh /Users/Munukutla/test
+$ bash files_hashes.sh /Users/Munukutla/test
 ```
 
 ---
