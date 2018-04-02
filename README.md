@@ -29,10 +29,17 @@ though having a different filename.
 $ ./same_files.sh /Users/Munukutla/test
 ```
 
+---
+
+#### Here is how to execute the program ==> ruby script:
+```
+$ ruby file_hashes.rb /Users/Munukutla/test
+```
+
 #### NOTES:
-*  for Python3 script, I have used sha256 for finding the hashing.  We can probably look at other hashing algorithms which might be faster in calculating the hashes for improved speed.
+*  for Python3 and Ruby scripts, I have used sha256 for finding the hashing.  We can probably look at other hashing algorithms which might be faster in calculating the hashes for improved speed.
 *  For the bash script, just used cksum, we can probably use one of Secure Hash Algorithms (SHA) including SHA1, SHA256 and SHA512
-*  For simpler calculations, unix based tools like 'diff', 'cmp' can as well be used.
+*  For simpler calculations, unix based tools like `diff`, `cmp` can as well be used.
 
 #### More Info on Cryptographic Algorithms:
 For Data Integrity validations are done using Message Digest OR Secure Hash Algorithms.
