@@ -45,7 +45,7 @@ For Data Integrity validations are done using Message Digest OR Secure Hash Algo
 
 
 Message Digest - MD5 (128 bit digest) - has vulnerabilities, but can be used to find checksums of a file in a controlled env.
-Secure Hash Algoriths: SHA-0, SHA-1, SHA-2, SHA-3
+Secure Hash Algorithms: SHA-0, SHA-1, SHA-2, SHA-3
 ```
 SHA-0 and SHA-1 (160 bit hash value or digest)
 SHA-2
